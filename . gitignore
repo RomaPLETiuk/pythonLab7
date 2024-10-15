@@ -1,0 +1,36 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+*.egg-info
+env/
+venv/
+.Python
+
+# Docker specific
+*.log
+docker-compose.override.yml
+docker-compose.yml.bak
+volumes/
+postgres_data/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Virtual environments and packages
+env/
+.venv/
+node_modules/
+
+# Git
+.git/
+
+# Logs
+*.log
+*.pid
+*.out
+*.err
